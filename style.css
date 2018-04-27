@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+
+  font-family: inherit;
+  font-weight: 300;
+}
+ul
+{
+  background: grey;
+  position: relative;
+}
+ul li
+{
+  display: inline-block;
+}
+ul li a
+{
+  color: red;
+  padding: 15px;
+  display: block;
+}
+ul li:hover
+{
+  background:blue;
+}
+
+ul ul
+{
+  position: absolute;
+  min-width: 200px;
+  background: blue;
+  display: none;
+}
+
+ul ul li
+{
+  display: block;
+  background: #e3e3e3;
+}
+
+ul li:hover ul
+{
+    display: block;
+}
+
+ul li i
+{
+    color:white;
+    float: right;
+    padding-left: 20px;
+}
+
+nav div
+{
+  background: blue;
+  color: white;
+  font-size: 24px;
+  padding: 0.6em;
+  cursor: pointer;
+  display: none;
+}
